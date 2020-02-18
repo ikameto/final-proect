@@ -5,16 +5,6 @@ body {
 }
 
 /*  */
-/* start big container */
-/*  */
-.big-container {
-  max-width: 1500px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-
-/*  */
 /* start little container */
 /*  */
 .little-container {
@@ -541,11 +531,24 @@ body {
 }
 
 /*  */
+/* start big container */
+/*  */
+.big-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #000000;
+}
+
+/*  */
 /* start footer */
 /*  */
 .footer {
-  background: #000000;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
   padding: 100px;
+  background: #000000;
 }
 
 .footer__wrapper {
