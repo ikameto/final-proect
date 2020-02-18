@@ -531,24 +531,19 @@ body {
 }
 
 /*  */
-/* start big container */
+/* start footer */
 /*  */
-.big-container {
+.footer {
   width: 100%;
-  margin: 0 auto;
   padding: 0;
   background: #000000;
 }
 
-/*  */
-/* start footer */
-/*  */
-.footer {
+.footer__container {
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
   padding: 100px;
-  background: #000000;
 }
 
 .footer__wrapper {
@@ -563,7 +558,7 @@ body {
   margin-right: 30px;
 }
 
-.footer :last-child {
+.footer__container :last-child {
   margin-right: 0;
 }
 
