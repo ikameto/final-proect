@@ -338,6 +338,10 @@ body {
   margin-bottom: 100px;
 }
 
+.widgets__aside--wrap {
+  position: relative;
+}
+
 .widgets__title {
   position: relative;
   font-size: 24px;
@@ -699,4 +703,51 @@ body {
 
 .footer__done-span {
   color: #ff9907;
+}
+
+/*  */
+/* start archive */
+/*  */
+/* start banner */
+/*  */
+.banner__head {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 3;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 30px;
+}
+
+/*  */
+/* start content wrap */
+/*  */
+.content__wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 70%;
+}
+
+/*  */
+/* start blog card archive */
+/*  */
+.blog__card--archive {
+  height: 600px;
+  width: 48%;
+  margin-bottom: 60px;
+}
+
+.blog__img--archive {
+  margin-bottom: 0;
+}
+
+.blog__link--archive {
+  margin-bottom: 0;
+}
+
+.blog__text--archive {
+  margin-bottom: 0;
 }
