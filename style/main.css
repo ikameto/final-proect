@@ -370,7 +370,7 @@ body {
 /*  */
 /* start content column */
 /*  */
-.content__column {
+.content__blog {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -378,7 +378,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .content__column {
+  .content__blog {
     width: 60%;
     margin-right: 12px;
     justify-content: start;
@@ -527,7 +527,7 @@ body {
   margin-bottom: 100px;
 }
 
-.widgets__aside--wrap {
+.widgets__aside-wrap {
   position: relative;
 }
 
