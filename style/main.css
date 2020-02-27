@@ -1040,6 +1040,7 @@ body {
 }
 
 .footer__form-submit {
+  height: 36px;
   padding: 10px 20px;
   background-color: #ff9907;
   border: none;
